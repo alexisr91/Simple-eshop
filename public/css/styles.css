@@ -1,0 +1,77 @@
+
+/* En priorité le css prend d'abord l'attribut style ensuite l'id puis la classe */
+
+/* Une double classe prend la priorité sur une classe selectionné sur CSS */
+body{
+	background:  white;
+	color: black;
+}
+
+
+
+.card-body{
+	background: gray;
+}
+
+.imgprod{
+	width: 13vw;
+}
+
+
+.prod{
+	border:  1px solid black;
+}
+
+
+h5{
+	color: darkslategray;
+}
+
+.display{
+	background-color: rgba(255, 255, 255, 1);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border:  3px solid darkslategray;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+
+.imgdisp{
+	height: 50vh;
+}
+
+button{
+	padding: 10px;
+	z-index: 10;
+}
+
+
+p{
+	font-weight: bold;
+}
+
+.mt-30{
+	margin-top: 30px;
+}
+
+.bouton-delete{
+	margin-left: 2px;
+}
+
+
+.flex{
+	display: flex;
+}
+
+
+.cart-link .dropdown-menu{
+	left: -140px;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+

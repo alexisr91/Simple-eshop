@@ -1,0 +1,5 @@
+#interdire l'accès au répertoire app
+# faire +indexes autorise l'accès faire - indexes interdit l'accès
+#enlever l'accès au repertoire index
+
+Options -Indexes
