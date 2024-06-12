@@ -42,6 +42,10 @@ Yes, it has PHP Mailer
 
 Yes, it has been tested except for the mailing path for users, and I still don't know why
 
+#### Do the users password are crypted ?
+
+Yes with the BCRYPT algorithm
+
 
 ## Features
 
