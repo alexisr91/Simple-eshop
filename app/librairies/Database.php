@@ -10,10 +10,7 @@
 
 class Database
 {
-    private $host = DB_HOST;
-    private $user = DB_USER;
-    private $password = DB_PASSWORD;
-    private $dbname = DB_NAME;
+    
     private $dbh;
     private $stmt;
     private $error;
