@@ -9,8 +9,7 @@
 			$this->userModel = $this->model('User');
 			$this->productModel = $this->model('Product');
 			$this->tokens = [
-				'736273de',
-				'7369373de'
+				
 			];
 		}
 
